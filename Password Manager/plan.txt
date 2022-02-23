@@ -1,0 +1,28 @@
+Functions : 
+    ## - Accept the passowrd & email and save it into the database/json file
+    ## - Delete Password By Service Name + Trhough Error If Service Doesn't Exist
+    ## - Retrieve back the passowrd & email (through ui) when the user gives the service's name
+    ## - Be able to fetch the services registered
+    ## - Before giving data, it should ask for a master password and then proceed
+    ## - Clean Code... Classes, Functions, Var (Good Names), etc.
+    ## - Define Master Password In A different File & Extract It
+    ## - List All Entries    
+    ## - Randomly generated secure password (that gets auto added when you enter service and email)
+    ## - Copy Password When Retrieving (Recognize When There Are Multiple) or Creating New One...
+
+    ## - Hide Master Password Input
+    ## - See Services By A specific Email (All The Service Under)
+    
+    ## - Choose & Implement Specific Data Type For Email & Password
+    ## - Better Searching, Finding All Accounts & Not Always 'Exact Match' (=)
+    ## - Dynamic Searching (Show Existing Record, Without Exact Service Name)
+    !! - Encrypt Passwords
+    
+    ?? - Put "Date-Added" To Each Record
+
+    ?? - Improve Interface Looks (Appearance Of The Terminal -- Basic)
+    ?? - Add A Function To Change Master Password
+    ?? - Function To, Edit Existing Password
+    ?? - Random email generator for temp accounts (use API)
+    ?? - UI (with flask/tkinter/linter integeration?)
+    

@@ -1,0 +1,6 @@
+notify2
+mailer
+bs4
+os
+sys
+requests

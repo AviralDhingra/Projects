@@ -1,0 +1,23 @@
+name = input("What Is Your Name?")
+c_noun = input("Choose a Common noun: ")
+p_noun = input("Choose a plural noun: ")
+p_noun2 = input("Choose a plural noun: ")
+c_noun2 = input("Choose a Common noun: ")
+place = input("Name a place: ")
+adjective = input("Choose an adjective (Describing word): ")
+c_noun3 = input("Choose a Common noun: ")
+
+
+# Displays the story based on the users input
+print("------------------------------------------")
+print(f'Hello {name}!!')
+print('I Am Mad Libs')
+print()
+print(f"{c_noun}'s are awsome... And i love a group of {p_noun2}")
+print(f"For a {c_noun3} may be somebody's {c_noun2},")
+print("Be kind to your", p_noun, "in", place)
+print("Where the weather is always", adjective, ".")
+print()
+print("You may think that is this the end")
+print("Well it is.")
+print("------------------------------------------")

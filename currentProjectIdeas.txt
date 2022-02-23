@@ -1,0 +1,15 @@
+New Ideas : 
+ - **Flask (Just Learn Basics)
+ - Universal Code Snippets Repo
+ - SSH Connection (Just Learn Basics)
+ - Tradebot (Try, Atleast Understand The Concept)
+ - Food Suggester
+ 
+ 
+
+ 
+Working (Add More Functions To Existing Programs) : 
+ - Fractal Art (Solve "tkinter color" Error)
+ - Mail & Mssg (Make SMS Work)
+ - File Manager (Add More Functions Like Sorting Files By Type/Date)
+ - Password Database (Encrypt Passwords In Database, Make Windows Compatible (with bat file, etc.)
