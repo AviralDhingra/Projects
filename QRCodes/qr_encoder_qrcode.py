@@ -1,5 +1,5 @@
-import inspect
-import subprocess
+# import inspect
+# import subprocess
 
 import qrcode
 import wifi_qrcode_generator
