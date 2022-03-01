@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+
+.title {
+  color: #50f148;
+  font-size: 18.864px;
+}
+
+.dt {
+  color: #a1ac25;
+  font-size: 14.4px;
+}
+
+.entry {
+  color: white;
+  font-size: 14.4px;
+}
