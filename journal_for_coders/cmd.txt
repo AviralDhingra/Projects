@@ -1,1 +1,7 @@
 mongosh "mongodb+srv://cluster0.8gzim.mongodb.net/coderJournal" --apiVersion 1 --username admin
+
+
+
+username => postgres
+password => q7vXkDMb6KRBgSeLtMeI
+endpoint => coderjournal.c3zoitne75bd.ap-south-1.rds.amazonaws.com

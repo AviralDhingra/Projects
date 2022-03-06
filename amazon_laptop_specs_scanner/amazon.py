@@ -1,8 +1,8 @@
-from selectorlib import Extractor
-import requests 
-import json 
+import json
 from time import sleep
 
+import requests
+from selectorlib import Extractor
 
 # Create an Extractor by reading from the YAML file
 e = Extractor.from_yaml_file('selectors.yml')

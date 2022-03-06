@@ -3,7 +3,8 @@ import os
 import cv2
 
 # reading image
-img_name = "car2.jpg"
+img_name = str(input("Image Names (Without Extension): "))
+img_name = f'{img_name}.jpg'
 image = cv2.imread(img_name)
 
 # converting BGR image to grayscale

@@ -13,12 +13,12 @@
   <!-- <h1 style="color: blue">Notebook</h1> -->
   <!-- <p>{{string}}</p> -->
   {% for i in range(length) %}
-    <p class = "title">{{titles[i]}}</p>
-    <div class = "dt">
-      <p>{{dates[i]}} {{times[i]}}</p>
-    </div>
-    <p class = "entry">{{entries[i]}}</p>
-    <br>
+  <p class="title">{{titles[i]}}</p>
+  <div class="dt">
+    <p>{{dates[i]}} {{times[i]}}</p>
+  </div>
+  <p class="entry">{{entries[i]}}</p>
+  <br>
   {% endfor %}
   <!-- <img src="{{ url_for('static', filename='img/TEST-IMG.png') }}" alt=""> -->
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
