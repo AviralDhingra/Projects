@@ -48,8 +48,8 @@ while running == True:
             # listens for the user's input
             audio2 = r.listen(source2)
 
-            # Using ggogle to recognize audio
-            MyText = r.recognize_ibm(
+            # Using google to recognize audio
+            MyText = r.recognize_google(
                 audio2)
             # , show_all=True
             MyText = MyText.lower()
@@ -120,8 +120,8 @@ while running == True:
                         print(txt + '...')
                         SpeakText(txt)
 
-    except sr.RequestError as e:
-        print("Could not request results; {0}".format(e))
+    # except sr.RequestError as e:
+    #     print("Could not request results; {0}".format(e))
 
     # except sr.UnknownValueError:
     #     print("unknown error occured")
