@@ -1,9 +1,7 @@
-# Guesing Game
 import random
 
 a = 0
 b = 100
-
 n = random.randint(a, b)
 
 print("The computer chooses a random number between", a, "and", b)
@@ -19,7 +17,7 @@ for i in range(10):
         break
     elif not (inp == n):
         if (i == 10):
-            print("YOU LOST")
+            print("You Lost")
             break
         else:
             if (inp > n):
